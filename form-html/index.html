@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend><h2>Registration from</h2></legend>
+        <fieldset>
+          <legend><h3>personal information</h3></legend>
+          <p>
+            First Name:
+            <input type="text" name="name" /> &nbsp;&nbsp; Last Name :
+            <input type="text" name="fname" />
+          </p>
+          <p>
+            DOB:
+            <input type="date" name="dob" />
+          </p>
+          <p>
+            Phone no:
+            <input type="tel" name="number" />
+          </p>
+          <p>
+            Password:
+            <input type="password" name="pass" />
+          </p>
+          <p>
+            Email:
+            <input type="email" name="email" />
+          </p>
+          <p>
+            Address:
+            <input type="address" name="address" />
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend><h3>Gender:</h3></legend>
+
+          <input type="radio" name="Male" id="Male" />Male: <br />
+          <input type="radio" name="female" id="fem" />Female: <br />
+          <input type="radio" name="oather" id="other" />Other:
+        </fieldset>
+        <fieldset>
+          <legend><h3>Intrests:</h3></legend>
+          <input type="checkbox" name="int" id="Travel" />Travel <br />
+          <input type="checkbox" name="int" id="sports" />Sports <br />
+          <input type="checkbox" name="int" id="read" />Reading <br />
+          <input type="checkbox" name="int" id="photography" /> photography
+          <br />
+          <input type="checkbox" name="int" id="game" /> Gaming <br />
+          <input type="checkbox" name="int" id="code" /> Coding <br />
+          <br />
+        </fieldset>
+        <p>
+          Your City:
+          <select name="select city" id="">
+            <option value="pak">Pakistan</option>
+            <option value="isl">islamabad</option>
+            <option value="lhr">lahore</option>
+            <option value="pesh">peshawar</option>
+            <option value="quetta">quetta</option>
+            <option value="punjab">punjab</option>
+          </select>
+        </p>
+        <p>
+          Profile Picture:
+          <input type="file" />
+        </p>
+        <p>
+          Search:
+          <input type="search" name="search" id="search" />
+        </p>
+        url of your website:
+        <input type="url" name="url" id="" />
+        <fieldset>
+          <legend><h3>About us:</h3></legend>
+          <textarea name="Comment" id="" cols="40" rows="10">
+did you like my form?</textarea
+          >
+        </fieldset>
+      </fieldset>
+    </form>
+  </body>
+</html>
